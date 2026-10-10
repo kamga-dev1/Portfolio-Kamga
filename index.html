@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ludovic Kamga — Étudiant en Licence & Apprenti Développeur Full-Stack</title>
+  <meta name="description"
+    content="Portfolio de Kamga Tchoussi Ludovic, étudiant en Licence et apprenti développeur Full-Stack : Java Spring Boot, PHP, React.js, Chakra UI, HTML/CSS/JS, Bootstrap et FontAwesome." />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="theme-dark">
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="code-tag">&lt;/&gt;</span> Ludovic <span class="brand-accent">.dev</span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="#hero" class="nav-link active">Accueil</a>
+        <a href="#about" class="nav-link">Présentation</a>
+        <a href="#skills" class="nav-link">Compétences</a>
+        <a href="#projects" class="nav-link">Projets</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Changer de thème">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+
+      <!-- Left Column: Title & Intro -->
+      <div class="hero-left">
+        <div class="hero-dash"></div>
+        <h1 class="hero-title">
+          Je suis <span class="highlight-name">Kamga Tchoussi Ludovic</span>,<br />
+          un <span class="highlight-role">Apprenti Développeur Full-Stack</span>
+        </h1>
+        <p class="hero-desc">
+          Étudiant en Licence d'informatique. Je conçois des applications web et logicielles complètes alliant la
+          robustesse back-end (<strong>Java Spring Boot, PHP</strong>) à la modernité des interfaces front-end
+          (<strong>React.js, Chakra UI, Bootstrap</strong>).
+        </p>
+        <a href="#about" class="hero-scroll-btn" aria-label="Défiler vers le bas">
+          <i class="fa-solid fa-chevron-down"></i>
+        </a>
+      </div>
+
+      <!-- Center Column: Portrait -->
+      <div class="hero-center">
+        <div class="portrait-wrapper">
+          <img src="assets/WhatsApp Image 2026-10-09 at 23.09.03.jpeg" alt="Portrait Ludovic Développeur"
+            class="hero-portrait" />
+          <div class="portrait-gradient-overlay"></div>
+        </div>
+      </div>
+
+      <!-- Right Column: Quick widgets -->
+      <div class="hero-right">
+
+        <!-- Widget: About me -->
+        <div class="hero-widget">
+          <span class="widget-label">STATUT &amp; FORMATION</span>
+          <p class="widget-text">Étudiant en Licence informatique, en recherche de défis en apprentissage pour concevoir
+            des solutions performantes.</p>
+          <a href="#about" class="widget-link">DÉCOUVRIR MON PARCOURS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Widget: My work -->
+        <div class="hero-widget">
+          <span class="widget-label">CORE STACK</span>
+          <p class="widget-text">Java (Spring Boot), PHP, React.js (Chakra UI), JavaScript, HTML5/CSS3, Bootstrap &amp;
+            FontAwesome.</p>
+          <a href="#skills" class="widget-link">VOIR MES COMPÉTENCES <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Widget: Follow me -->
+        <div class="hero-widget">
+          <span class="widget-label">RÉSEAUX &amp; CODE</span>
+          <div class="social-icons">
+            <a href="https://github.com/kamga-dev1" target="_blank" rel="noopener" class="social-btn"
+              aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://gitlab.com/chanfordkamga" target="_blank" rel="noopener" class="social-btn"
+              aria-label="GitLab">
+              <i class="fa-brands fa-gitlab"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/chanford-kamga-765a3a318" target="_blank" rel="noopener"
+              class="social-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#contact" class="social-btn" aria-label="Email Contact">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT & STATS SECTION -->
+  <section id="about" class="about-section">
+    <div class="section-container">
+
+      <div class="section-header">
+        <span class="section-badge">/ PRÉSENTATION &amp; OBJECTIFS</span>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-content">
+          <h2 class="about-title">
+            Étudiant en Licence &amp; Apprenti Développeur Full-Stack
+          </h2>
+          <p class="about-desc">
+            Passionné par le développement logiciel et l'ingénierie logicielle, je poursuis actuellement mes études en
+            Licence d'informatique tout en développant activement des projets full-stack complets. Mon ambition est
+            d'approfondir mes compétences pratiques au sein d'une entreprise dans le cadre d'un
+            apprentissage.<br /><br />
+            Côté <strong>Back-End</strong>, je conçois des APIs REST fiables, modulaires et sécurisées avec <strong>Java
+              (Spring Boot)</strong> et <strong>PHP</strong>, adossées à des bases de données relationnelles (MySQL).
+            Côté <strong>Front-End</strong>, j'accorde une importance majeure à l'expérience utilisateur et à la clarté
+            du code avec <strong>React.js</strong> associé à <strong>Chakra UI</strong>, ou via <strong>HTML5, CSS3,
+              JavaScript ES6+</strong> et <strong>Bootstrap</strong>, le tout enrichi par <strong>FontAwesome</strong>.
+          </p>
+          <a href="#contact" class="link-arrow">
+            Proposer une opportunité d'apprentissage <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card neomorph">
+            <span class="stat-number stat-text">Bac+3</span>
+            <span class="stat-label">En cours de Licence</span>
+            <p class="stat-detail">Formation universitaire solide en Informatique, Algorithmique et Génie Logiciel.</p>
+          </div>
+          <div class="stat-card neomorph">
+            <span class="stat-number stat-text">Full-Stack</span>
+            <span class="stat-label">Profil Polyvalent</span>
+            <p class="stat-detail">De l'architecture serveur et modèles de données jusqu'à l'intégration d'interfaces
+              utilisateur modernes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust / Technologies Bar -->
+      <div class="partners-bar">
+        <span class="partners-title">STACK TECHNIQUE &amp; TECHNOLOGIES MAÎTRISÉES</span>
+        <div class="partners-list">
+          <div class="partner-item"><i class="fa-brands fa-java"></i> Java &amp; Spring Boot</div>
+          <div class="partner-item"><i class="fa-brands fa-php"></i> PHP &amp; MySQL</div>
+          <div class="partner-item"><i class="fa-brands fa-react"></i> React.js &amp; Chakra UI</div>
+          <div class="partner-item"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+          <div class="partner-item"><i class="fa-brands fa-font-awesome"></i> FontAwesome</div>
+          <div class="partner-item"><i class="fa-brands fa-js"></i> JavaScript ES6+</div>
+          <div class="partner-item"><i class="fa-brands fa-html5"></i> HTML5 &amp; CSS3</div>
+          <div class="partner-item"><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub/GitLab</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills-section">
+    <div class="section-container">
+
+      <div class="section-header-row">
+        <div>
+          <span class="section-badge">/ MES COMPÉTENCES</span>
+          <h2 class="section-title">Une maîtrise technique équilibrée</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Skill 1: Java & Spring Boot -->
+        <div class="skill-card neomorph">
+          <div class="skill-icon-box">
+            <i class="fa-brands fa-java"></i>
+          </div>
+          <h3>Java &amp; Spring Boot</h3>
+          <p>Conception d'APIs RESTful performantes et sécurisées, injection de dépendances, architecture multicouche,
+            gestion de la persistance des données et POO rigoureuse.</p>
+          <div class="skill-tags">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Spring Data</span>
+            <span>APIs REST</span>
+            <span>Maven</span>
+            <span>POO</span>
+          </div>
+        </div>
+
+        <!-- Skill 2: PHP & Back-End -->
+        <div class="skill-card neomorph">
+          <div class="skill-icon-box">
+            <i class="fa-brands fa-php"></i>
+          </div>
+          <h3>PHP &amp; Gestion de Données</h3>
+          <p>Développement de la logique serveur, architecture MVC, traitement des formulaires, sessions sécurisées et
+            requêtes relationnelles avec bases MySQL.</p>
+          <div class="skill-tags">
+            <span>PHP</span>
+            <span>MySQL</span>
+            <span>Architecture MVC</span>
+            <span>CRUD</span>
+            <span>Sécurité Web</span>
+          </div>
+        </div>
+
+        <!-- Skill 3: React.js & Chakra UI -->
+        <div class="skill-card neomorph">
+          <div class="skill-icon-box">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <h3>React.js &amp; Chakra UI</h3>
+          <p>Création d'interfaces web interactives et modernes en composants modulaires, maîtrise des Hooks (useState,
+            useEffect), design systems accessibles avec Chakra UI et state management.</p>
+          <div class="skill-tags">
+            <span>React.js</span>
+            <span>Chakra UI</span>
+            <span>Hooks</span>
+            <span>SPA</span>
+            <span>Composants UI</span>
+          </div>
+        </div>
+
+        <!-- Skill 4: Web Fundamentals & Bootstrap -->
+        <div class="skill-card neomorph">
+          <div class="skill-icon-box">
+            <i class="fa-brands fa-bootstrap"></i>
+          </div>
+          <h3>HTML5, CSS3, JS &amp; Bootstrap</h3>
+          <p>Intégration responsive respectant les standards du web, stylisation avancée, manipulation du DOM en
+            JavaScript vanilla, grilles Bootstrap et iconographie FontAwesome.</p>
+          <div class="skill-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Bootstrap</span>
+            <span>FontAwesome</span>
+            <span>Responsive</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS GALLERY -->
+  <section id="projects" class="projects-section">
+    <div class="section-container">
+
+      <div class="section-header-row">
+        <div>
+          <span class="section-badge">/ PROJETS RÉALISÉS</span>
+          <h2 class="section-title">Applications &amp; Réalisations</h2>
+        </div>
+      </div>
+
+      <!-- FEATURED PROJECT: SUBMAN (CABLEORBITS) -->
+      <div class="featured-project-card neomorph">
+        <div class="featured-header-row">
+          <div class="badge-featured">
+            <i class="fa-solid fa-star"></i> Projet Phare &bull; Application Full-Stack
+          </div>
+          <span class="validation-badge">
+            <i class="fa-solid fa-clock-rotate-left"></i> En cours de validation
+          </span>
+        </div>
+
+        <div class="featured-grid">
+          <!-- Interactive Preview Container -->
+          <div class="subman-preview-container">
+            <div class="subman-main-frame">
+              <img id="subman-main-preview" src="assets/subman-subscribers.png"
+                alt="Aperçu SubMan - Gestion des Abonnés" />
+            </div>
+
+            <div class="subman-caption-bar">
+              <span id="subman-preview-caption"><i class="fa-solid fa-circle-info"></i> Vue 1 : Gestion des abonnés,
+                repères géographiques &amp; soldes FCFA</span>
+              <span class="preview-counter">3 vues interactives</span>
+            </div>
+
+            <!-- Clickable Thumbnail Tabs -->
+            <div class="subman-thumbs-row">
+              <button type="button" class="subman-thumb active" data-img="assets/subman-subscribers.png"
+                data-caption="Vue 1 : Gestion des abonnés, repères géographiques &amp; soldes FCFA">
+                <span class="subman-thumb-title"><i class="fa-solid fa-users"></i> Abonnés</span>
+                <span class="subman-thumb-subtitle">Suivi &amp; Soldes FCFA</span>
+              </button>
+
+              <button type="button" class="subman-thumb" data-img="assets/subman-users.png"
+                data-caption="Vue 2 : Gestion des utilisateurs, permissions &amp; badges de conformité">
+                <span class="subman-thumb-title"><i class="fa-solid fa-user-shield"></i> Utilisateurs</span>
+                <span class="subman-thumb-subtitle">Rôles &amp; Équipe</span>
+              </button>
+
+              <button type="button" class="subman-thumb" data-img="assets/subman-login.png"
+                data-caption="Vue 3 : Portail d'authentification CableOrbits &amp; sécurité des accès">
+                <span class="subman-thumb-title"><i class="fa-solid fa-arrow-right-to-bracket"></i> Connexion</span>
+                <span class="subman-thumb-subtitle">Espace CableOrbits</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Featured Project Details -->
+          <div class="featured-content">
+            <h3 class="featured-title">SubMan (CableOrbits) — Gestion des Abonnés &amp; Contrats</h3>
+            <p class="featured-desc">
+              Application web de gestion centralisée pour opérateurs de distribution câble. SubMan permet d'administrer
+              l'ensemble du cycle de vie des abonnés, de piloter les rôles des équipes internes et de fiabiliser les
+              flux financiers et le recouvrement.
+            </p>
+
+            <div class="subman-features-list">
+              <div class="subman-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Gestion des Abonnés &amp; Localisation :</strong> Fiches d'abonnés, repères géographiques
+                  de proximité, suivi des statuts actifs/inactifs et soldes en FCFA.</span>
+              </div>
+              <div class="subman-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Administration Multi-Rôles :</strong> Gestion hiérarchique des utilisateurs (Manager,
+                  Technicien, Secrétaire) avec badges et conformité des profils.</span>
+              </div>
+              <div class="subman-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Actions Rapides &amp; Facturation :</strong> Barre contextuelle (édition,
+                  coupure/rétablissement, suppression, versements et recouvrement).</span>
+              </div>
+              <div class="subman-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Portail d'Accès CableOrbits :</strong> Interface de connexion moderne avec
+                  authentification sécurisée et protection des données.</span>
+              </div>
+            </div>
+
+            <div class="featured-meta-row">
+              <div class="project-tech">
+                <span>Full-Stack</span>
+                <span>Java Spring Boot</span>
+                <span>PHP &amp; MySQL</span>
+                <span>React.js</span>
+                <span>Bootstrap</span>
+                <span>FontAwesome</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="project-btn primary-btn">
+                  En savoir plus sur SubMan <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card wtc-project-card neomorph">
+          <div class="wtc-project-gallery" aria-label="Captures d'écran du site WTC Services">
+            <img src="assets/Capture d'écran 2026-10-10 002738 copy.png"
+              alt="Page d'accueil du site WTC Services" loading="lazy" />
+            <img src="assets/Capture d'écran 2026-10-10 002835.png"
+              alt="Page À propos de WTC Services" loading="lazy" />
+            <img src="assets/Capture d'écran 2026-10-10 002808.png"
+              alt="Formulaire de demande de devis WTC Services" loading="lazy" />
+            <img src="assets/Capture d'écran 2026-10-10 002858.png"
+              alt="Page des solutions de sécurité WTC Services" loading="lazy" />
+          </div>
+          <div class="project-info">
+            <span class="project-category">Site vitrine</span>
+            <h3>WTC Services — Sécurité électronique</h3>
+            <p>
+              Site vitrine pour une entreprise spécialisée en vidéosurveillance, alarmes et contrôle d’accès.
+              Il présente ses services et solutions, et permet aux visiteurs de demander un devis.
+            </p>
+            <div class="project-tech" aria-label="Technologies utilisées">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://kamga-dev1.github.io/wtc-services-l/index.html" target="_blank" rel="noopener noreferrer"
+                class="project-btn primary-btn">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Consulter le site
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="section-container">
+
+      <div class="section-header">
+        <span class="section-badge">/ CONTACT &amp; RECHERCHE D'ALTERNANCE</span>
+        <h2 class="section-title">Discutons d'une collaboration ou d'une opportunité</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Left: Info & Git Links -->
+        <div class="contact-info-card neomorph">
+          <h3>Prendre contact</h3>
+          <p>Étudiant en Licence d'informatique, je suis à la recherche d'une opportunité en tant qu'apprenti
+            développeur full-stack. Vous avez un poste à pourvoir, un projet ou une question ? N'hésitez pas à me
+            contacter !</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div>
+                <span class="detail-label">Statut actuel</span>
+                <span class="detail-val">Étudiant en Licence Informatique (Recherche Apprentissage)</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <span class="detail-label">Email direct</span>
+                <span class="detail-val">chanfordkamga@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <span class="detail-label">Disponibilité</span>
+                <span class="detail-val">Alternance / Apprentissage &amp; Projets</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="git-links-box">
+            <h4>Dépôts de code &amp; Profils publics</h4>
+            <div class="git-buttons">
+              <a href="https://github.com/kamga-dev1" target="_blank" rel="noopener" class="git-btn neomorph-button">
+                <i class="fa-brands fa-github"></i> Profil GitHub
+              </a>
+              <a href="https://gitlab.com/chanfordkamga" target="_blank" rel="noopener" class="git-btn neomorph-button">
+                <i class="fa-brands fa-gitlab"></i> Profil GitLab
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="contact-form-card neomorph">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Votre Nom ou Entreprise</label>
+              <input type="text" id="name" name="name" placeholder="Ex: Entreprise Tech / Jean Dupont" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Votre Adresse Email</label>
+              <input type="email" id="email" name="email" placeholder="Ex: contact@entreprise.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Objet du message</label>
+              <input type="text" id="subject" name="subject"
+                placeholder="Ex: Proposition d'apprentissage Développeur Full-Stack" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Votre Message</label>
+              <textarea id="message" name="message" rows="5"
+                placeholder="Présentez brièvement vos besoins, le profil recherché ou votre proposition..."
+                required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <span>Envoyer le message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p id="form-feedback" class="form-feedback"></p>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="code-tag">&lt;/&gt;</span> Ludovic <span class="brand-accent">.dev</span>
+      </div>
+      <p class="footer-copy">&copy; <span id="current-year"></span> Kamga Tchoussi Ludovic — Étudiant en Licence &amp;
+        Apprenti Développeur Full-Stack.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/kamga-dev1" target="_blank" rel="noopener" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
+        <a href="https://gitlab.com/chanfordkamga" target="_blank" rel="noopener" aria-label="GitLab"><i
+            class="fa-brands fa-gitlab"></i></a>
+        <a href="https://www.linkedin.com/in/chanford-kamga-765a3a318" target="_blank" rel="noopener"
+          aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
